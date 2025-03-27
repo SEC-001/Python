@@ -1,0 +1,36 @@
+Sample Output
+
+What is your name? Alice
+Please enter a sentence: Python is fun!
+Hello, Alice!
+Your name has 5 characters.
+Your sentence has 15 characters.
+
+
+..........................................................................
+
+
+
+
+Solution:
+
+# Step 1: Ask for the user's name
+name = input("What is your name? ")
+
+# Step 2: Ask for a sentence input
+sentence = input("Please enter a sentence: ")
+
+# Step 3: Print a personalized greeting
+print(f"Hello, {name}!")
+
+# Step 4: Display the length of the user's name
+name_length = len(name)
+print(f"Your name has {name_length} characters.")
+
+# Step 5: Display the length of the sentence (including spaces)
+sentence_length = len(sentence)
+print(f"Your sentence has {sentence_length} characters.")
+
+
+
+
